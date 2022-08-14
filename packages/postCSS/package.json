@@ -23,7 +23,6 @@
     "@babel/preset-env": "^7.15.0",
     "@babel/preset-react": "^7.14.5",
     "@babel/preset-typescript": "^7.15.0",
-    "@babel/runtime": "^7.15.3",
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
     "@types/testing-library__jest-dom": "^5.14.1",
@@ -38,7 +37,9 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^27.0.6",
     "jest-cli": "^27.0.6",
+    "mini-css-extract-plugin": "^2.6.1",
     "postcss-cli": "^10.0.0",
+    "postcss-filename-prefix": "^2.0.0",
     "postcss-import": "^14.1.0",
     "postcss-js": "^4.0.0",
     "postcss-loader": "^7.0.1",
@@ -57,6 +58,7 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "@babel/runtime": "^7.18.9",
     "@types/jest": "^27.0.1",
     "@types/react": "^17.0.19",
     "@types/react-dom": "^17.0.9",
@@ -64,6 +66,7 @@
     "@types/webpack-env": "^1.16.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-prefix-loader": "^1.0.2",
     "single-spa": "^5.9.3",
     "single-spa-react": "^4.3.1"
   },

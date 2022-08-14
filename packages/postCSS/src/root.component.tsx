@@ -1,8 +1,9 @@
 import "../public/style.css";
 export default function Root(props) {
   return (
-    <section className="my-prefix">
-      <div className="postCSS_file">{props.name} is mounted!</div>
+    <section>
+      <div className="prefix_test_example1">postCSS is mounted!</div>
+      <div className="prefix_test_example1">postCSS is mounted!</div>
     </section>
   );
 }

@@ -26,10 +26,10 @@ export default function Root(props) {
   return (
     <section>
       {/* <StyleProvider scope="microfe-1" theme={theme}> */}
-      <Wrapper>
+      {/* <Wrapper>
         <Title>{props.name} is mounted!</Title>
-      </Wrapper>
-      <Div>This is a test page</Div>
+      </Wrapper> */}
+      <Div>This is a Style Component page</Div>
       {/* </StyleProvider> */}
     </section>
   );

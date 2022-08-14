@@ -1,6 +1,6 @@
 module.exports = {
   plugins: [
-    require("postcss-import"),
-    require("postcss-prefixer")({ prefix: "postCSS_" }),
+    // require("postcss-import"),
+    // require("postcss-prefixer")({ prefix: "test_" }),
   ],
 };

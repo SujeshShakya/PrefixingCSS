@@ -1,6 +1,19 @@
-.postCSS_file {
+.test_file {
     background-color: red;
 }
-.postCSS_example1 {
+
+.test_example1 {
+    background-color: yellow;
+}
+
+.test_example1 {
     background-color: green;
+}
+
+.test_text{
+    color: red;
+}
+
+.test_text {
+    color: green
 }
